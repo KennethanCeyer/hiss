@@ -1,3 +1,5 @@
+[![ghit.me](https://ghit.me/badge.svg?repo=KennethanCeyer/hiss)](https://ghit.me/repo/KennethanCeyer/hiss) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Join the chat at https://gitter.im/KennethanCeyer/PIGNOSE](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/KennethanCeyer/PIGNOSE?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## What is the hiss?
 
 `hiss` is simple cli tool to control the database schema.

@@ -12,7 +12,7 @@ for dirname, dirnames, filenames in walk(name):
         packages.append(dirname.replace('/', '.'))
 
 setup(
-    name='hiss',
+    name='hiss-cli',
     version='0.0.1',
     description='Python database migration tool based on git\'s design.',
     long_description=long_description,
@@ -42,15 +42,6 @@ setup(
     install_requires=['sqlalchemy'],
     extras_require={
         'dev': ['check-manifest'],
-        'test': ['pytest', 'coverage'],
-    },
-    package_data={
-        'sample': [],
-    },
-    data_files=[],
-    entry_points={
-    },
-    scripts=[
-        'src/main.py'
-    ]
+        'test': ['pytest', 'coverage']
+    }
 )

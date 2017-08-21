@@ -1,4 +1,4 @@
-|ghit.me| |License: MIT| |Join the chat at
+|pypi| |ghit.me| |License: MIT| |Join the chat at
 https://gitter.im/KennethanCeyer/PIGNOSE|
 
 What is the hiss?
@@ -87,6 +87,8 @@ If you want to use the demo version, Please send a message via gitter
 
 Thank you.
 
+.. |pypi| image:: https://badge.fury.io/py/hiss-cli.svg
+    :target: https://badge.fury.io/py/hiss-cli
 .. |ghit.me| image:: https://ghit.me/badge.svg?repo=KennethanCeyer/hiss
    :target: https://ghit.me/repo/KennethanCeyer/hiss
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg

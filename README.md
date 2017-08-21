@@ -64,3 +64,11 @@ $ hiss reset HEAD^ --hard
 $ hiss tag -a v1.0 -m 'marking for first commition.'
 > done.
 ```
+
+## Notice
+
+This repository is still progress under development.
+
+If you want to use the demo version, Please send a message via gitter (Check the above badge).
+
+Thank you.

@@ -96,6 +96,15 @@ If you want to use the demo version, Please send a message via gitter
 
 Thank you.
 
+TODO
+----
+
+- [] Continous Integration & Continous Deployment
+- [] Add UnitTest
+- [] Add commands: init, show, checkout
+- [] Integration with MySQL
+- [] Branding: LOGO
+
 .. |pypi| image:: https://badge.fury.io/py/hiss-cli.svg
     :target: https://badge.fury.io/py/hiss-cli
 .. |ghit.me| image:: https://ghit.me/badge.svg?repo=KennethanCeyer/hiss

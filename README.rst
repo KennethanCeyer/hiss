@@ -7,11 +7,20 @@ What is the hiss?
 ``hiss`` is simple cli tool to control the database schema. If you care
 a stable enterprise service, You need to know hiss cli.
 
-you designed the schema of development environment database, and you
+If you designed the schema of development environment database, and you
 want to move it to a production server.
 
 It would be difficult and unstable. hiss can help to migrate for
 deployment and also help to ETL for another database engine.
+
+Installation
+------------
+
+hiss can be installed ``pypi``.
+
+.. code:: bash
+
+    $ pip install hiss-cli
 
 Features (Plan)
 ---------------

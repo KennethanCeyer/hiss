@@ -22,7 +22,7 @@ def find_version(*file_paths):
     Reads the supplied Python module as text without importing it.
     """
     version_file = read(*file_paths)
-    version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
+    version_match = re.search(r"^VERSION = ['\"]([^'\"]*)['\"]",
                               version_file, re.M)
     if version_match:
         return version_match.group(1)
@@ -30,7 +30,7 @@ def find_version(*file_paths):
 
 
 name = 'hiss'
-version = find_version(name, '__init__.py')
+version = find_version(name, 'config.py')
 cwd = os.path.abspath(os.path.dirname(__file__))
 packages = []
 long_description = read(os.path.join(cwd, 'README.rst'), encoding='utf-8')
@@ -41,7 +41,7 @@ for dirname, dirnames, filenames in os.walk(name):
 
 setup(
     name='hiss-cli',
-    version=find_version,
+    version=version,
     description='Python database migration tool based on git\'s design.',
     long_description=long_description,
     url='https://github.com/KennethanCeyer/hiss',

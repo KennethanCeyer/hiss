@@ -7,6 +7,3 @@
 # this is distributed under a free software license, see LICENSE
 
 from __future__ import absolute_import, division, print_function
-from .config import VERSION
-
-__version__ = VERSION

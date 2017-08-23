@@ -69,7 +69,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'hiss=hiss:hiss'
+            'hiss=hiss.hiss_cli:main'
         ]
     }
 )

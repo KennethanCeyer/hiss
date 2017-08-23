@@ -8,5 +8,4 @@
 # this is distributed under
 
 PROG = 'hiss'
-VERSION = '0.0.2'
 DESCRIPTION = 'data migration tool based on git command design'

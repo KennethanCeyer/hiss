@@ -22,7 +22,7 @@ def find_version(*file_paths):
     Reads the supplied Python module as text without importing it.
     """
     version_file = read(*file_paths)
-    version_match = re.search(r"^VERSION = ['\"]([^'\"]*)['\"]",
+    version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
                               version_file, re.M)
     if version_match:
         return version_match.group(1)
@@ -30,14 +30,9 @@ def find_version(*file_paths):
 
 
 name = 'hiss'
-version = find_version(name, 'config.py')
+version = find_version(name, '__init__.py')
 cwd = os.path.abspath(os.path.dirname(__file__))
-packages = []
 long_description = read(os.path.join(cwd, 'README.rst'), encoding='utf-8')
-
-for dirname, dirnames, filenames in os.walk(name):
-    if '__init__.py' in filenames:
-        packages.append(dirname.replace('/', '.'))
 
 setup(
     name='hiss-cli',
@@ -62,7 +57,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='hiss revision database cli version control',
-    packages=packages + find_packages(exclude=[
+    packages=find_packages(exclude=[
         'contrib',
         'docs',
         'tests'
@@ -74,7 +69,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'hiss=hiss:main'
+            'hiss=hiss:hiss'
         ]
     }
 )

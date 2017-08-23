@@ -9,10 +9,11 @@
 
 import requests
 import json
+from hiss import __version__
 
 _FORMAT_VERSION = 'hiss version {version}'
 
 
-def print_version(version):
+def print_version():
     """display current version"""
-    print(_FORMAT_VERSION.format(version=version))
+    print(_FORMAT_VERSION.format(version=__version__))

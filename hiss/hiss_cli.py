@@ -8,9 +8,10 @@
 # this is distributed under a free software license, see LICENSE
 
 import sys
+import os
 import argparse
-import config
-from cli import exceptions, tools
+from hiss import config
+from hiss.cli import exceptions, tools
 
 
 class Hiss(object):
@@ -32,7 +33,7 @@ class Hiss(object):
 
         # -v, --version
         if args.version is True:
-            tools.print_version(config.VERSION)
+            tools.print_version()
 
     def define_commands(self):
         """todo: create default commands; init, add, show, list"""
@@ -49,3 +50,6 @@ class Hiss(object):
 def main():
     """start hiss"""
     Hiss(sys.argv[1:])
+
+if __name__ == '__main__':
+    main()

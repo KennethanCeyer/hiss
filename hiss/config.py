@@ -6,6 +6,7 @@
 #
 # (C) 2017-2017 Kenneth Ceyer <kennethan@nhpcw.com>
 # this is distributed under
+# Apache 2.0 <https://www.apache.org/licenses/LICENSE-2.0>
 
 PROG = 'hiss'
 DESCRIPTION = 'data migration tool based on git command design'

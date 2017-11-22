@@ -59,13 +59,14 @@ setup(
     keywords='hiss revision database cli version control',
     packages=find_packages(exclude=[
         'contrib',
+	    'build',
         'docs',
         'tests'
     ]),
-    install_requires=['SQLAlchemy'],
+    install_requires=['six', 'SQLAlchemy'],
     extras_require={
         'dev': ['check-manifest'],
-        'test': ['pytest', 'coverage']
+        'test': ['pep8', 'pytest', 'coverage']
     },
     entry_points={
         'console_scripts': [

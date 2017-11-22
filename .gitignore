@@ -85,6 +85,9 @@ celerybeat-schedule
 # dotenv
 .env
 
+# coverage
+.coverage
+
 # virtualenv
 .venv
 venv/

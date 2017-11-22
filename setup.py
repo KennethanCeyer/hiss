@@ -66,7 +66,7 @@ setup(
     install_requires=['six', 'SQLAlchemy'],
     extras_require={
         'dev': ['check-manifest'],
-        'test': ['pep8', 'pytest', 'coverage']
+        'test': ['pycodestyle', 'pytest', 'coverage']
     },
     entry_points={
         'console_scripts': [

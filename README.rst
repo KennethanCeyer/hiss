@@ -1,4 +1,4 @@
-|pypi| |travis| |License: Apache-2.0| |Join the chat at
+|pypi| |wheel| |travis| |License: Apache-2.0| |Join the chat at
 https://gitter.im/KennethanCeyer/PIGNOSE|
 
 What is the hiss?
@@ -106,9 +106,11 @@ TODO
 - [] Branding: LOGO
 
 .. |pypi| image:: https://badge.fury.io/py/hiss-cli.svg
-    :target: https://badge.fury.io/py/hiss-cli
+   :target: https://badge.fury.io/py/hiss-cli
+.. |wheel| image:: https://img.shields.io/pypi/wheel/pycodestyle.svg
+   :target: https://badge.fury.io/py/hiss-cli
 .. |travis| image:: https://travis-ci.org/KennethanCeyer/hiss.svg?branch=master
-    :target: https://travis-ci.org/KennethanCeyer/hiss
+   :target: https://travis-ci.org/KennethanCeyer/hiss
 .. |License: Apache-2.0| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
    :target: https://opensource.org/licenses/Apache-2.0
 .. |Join the chat at https://gitter.im/KennethanCeyer/PIGNOSE| image:: https://badges.gitter.im/Join%20Chat.svg

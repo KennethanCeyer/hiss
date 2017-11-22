@@ -12,7 +12,7 @@ python:
   - "3.7-dev" # 3.7 development branch
   - "nightly"
 install:
-  - python setup.py install
+  - pip install -e .
 script:
   - bash runner/lint/run_lint.sh
   - pytest

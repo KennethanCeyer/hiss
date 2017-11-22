@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Base of hiss implementations
+# base of hiss implementations
 #
 # this is part of hiss. https://github.com/KennethanCeyer/hiss
 #

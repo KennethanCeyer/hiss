@@ -9,4 +9,4 @@
 from __future__ import absolute_import, division, print_function
 
 __author__ = 'Kenneth Ceyer <kennethan@nhpcw.com>'
-__version__ = '0.0.5'
+__version__ = '0.0.6'

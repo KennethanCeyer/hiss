@@ -63,7 +63,13 @@ setup(
         'docs',
         'tests'
     ]),
-    install_requires=['six', 'SQLAlchemy', 'pycodestyle', 'pytest', 'coverage'],
+    install_requires=[
+        'six',
+        'SQLAlchemy',
+        'pycodestyle',
+        'pytest',
+        'coverage'
+    ],
     extras_require={
         'dev': ['check-manifest'],
         'test': ['pycodestyle', 'pytest', 'coverage']

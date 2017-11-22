@@ -1,4 +1,4 @@
-|pypi| |ghit.me| |License: MIT| |Join the chat at
+|pypi| |License: Apache-2.0| |Join the chat at
 https://gitter.im/KennethanCeyer/PIGNOSE|
 
 What is the hiss?
@@ -107,9 +107,7 @@ TODO
 
 .. |pypi| image:: https://badge.fury.io/py/hiss-cli.svg
     :target: https://badge.fury.io/py/hiss-cli
-.. |ghit.me| image:: https://ghit.me/badge.svg?repo=KennethanCeyer/hiss
-   :target: https://ghit.me/repo/KennethanCeyer/hiss
-.. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
-   :target: https://opensource.org/licenses/MIT
+.. |License: Apache-2.0| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+   :target: https://opensource.org/licenses/Apache-2.0
 .. |Join the chat at https://gitter.im/KennethanCeyer/PIGNOSE| image:: https://badges.gitter.im/Join%20Chat.svg
    :target: https://gitter.im/KennethanCeyer/PIGNOSE?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
